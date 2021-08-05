@@ -1,0 +1,24 @@
+/***************************
+sven-essentials.min.css
+File list:
+	* bigvideo.css
+	* sven-teaser.css
+*****************************/
+
+/***************************
+page-essentials.min.css
+File list:
+	* jquery.mCustomScrollbar.min.css
+	* photoswipe.min.css
+    * default-skin.min.css
+	* main.css
+*****************************/
+
+/***************************
+page-essentials-minimal.min.css
+File list:
+	* jquery.mCustomScrollbar.min.css
+	* photoswipe.min.css
+    * default-skin.min.css
+	* main-minimal.css
+*****************************/

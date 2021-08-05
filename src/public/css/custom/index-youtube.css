@@ -1,0 +1,290 @@
+/*
+*
+* Template Name: Stomp - Typographic Intro
+* Concept: Template Landing Page / Coming Soon
+* Files Associated: index-youtube.html, index-youtube-countdown.html
+* Date Modified: 2017-06-29
+* Description: Custom Styles associated with the demos
+* Authors: Sven Creations(svencreations@gmail.com)
+*
+*/
+
+/* ==================================================================
+* Table of Contents:
+*
+* 1.0 - Custom Font Declarations(if any)
+* 2.0 - Custom Styles
+*       2.1 - Font Style Declarations and Other Fixes
+*       2.2 - Font Colors and Backgrounds
+* 3.0 - Responsive Styles
+* 		3.1 - Small Devices, Tablets (≥768px)
+* 		3.2 - Medium Devices, Desktops (≥992px)
+* 		3.3 - Large Devices, Desktops (≥1200px)
+*       3.4 - Wide Screens, Desktops (≥1824px)
+
+================================================================== */
+
+/* ==================================================================
+1.0 Custom Font Declarations(if any)
+================================================================== */
+@font-face {
+    font-family:'TeXGyreHeros';
+    src: url('../fonts/TeXGyreHeros-Bold.eot');
+	src: url('../fonts/TeXGyreHeros-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TeXGyreHeros-Bold.woff2') format('woff2'),
+		url('../fonts/TeXGyreHeros-Bold.woff') format('woff'),
+		url('../fonts/TeXGyreHeros-Bold.svg#TeXGyreHeros-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0-10FFFF;
+}
+
+/* ==================================================================
+2.0 Custom Styles
+================================================================== */
+
+/* 2.1 Font Style Declarations and Other Fixes
+-------------------------------------------------------------- */
+.fontLoaded .sven-container { /* Teaser Font */
+    font-family: 'TeXGyreHeros', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', 'Tahoma', 'Geneva', sans-serif;
+}
+
+.sound-info {
+    font-family: "Arial", sans-serif;
+}
+
+#stomp-intro h1 {
+    -webkit-text-stroke: 0px;
+}
+
+.lt-main {
+    font-weight: normal;
+    font-size: 18px; /* Fallback for Browsers not supporting vw units */
+	font-size: 5vw;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.font2x {
+    font-size: 36px;
+    font-size: 10vw;
+}
+
+.font4x {
+    font-size: 72px;
+    font-size: 20vw;
+}
+
+.splash-page .centered {
+    white-space: normal;
+}
+
+.splash-page .st-btn {
+    margin: 0;
+}
+
+.pl-wrapper { /* Hide Player Controls by default */
+    display: none;
+}
+
+/* 2.2 Font Colors and Backgrounds
+Stamp - #FF4266, Content BG - #FFF, Headline - #111517,
+Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
+-------------------------------------------------------------- */
+.sk-double-bounce .sk-child /* Preloader Circle Color */
+{
+    background: none #FFF;
+}
+
+/* Teaser Content BG and Text Color */
+.bg-white {
+    background: #FFF;
+}
+
+.bg-white .lt-main {
+    color: #000;
+}
+
+.lt-main.tint-bl {
+    color: #000;
+}
+
+/* Revealer Background */
+.revealer {
+    background: #FFFDA1;
+}
+
+/* Main Page */
+#intro-content {
+    background: #FF4266;
+}
+
+#main-content {
+    background: #FFF;
+}
+
+/* Buttons */
+.form-group .btn-bordered {
+    border-color: #292323;
+    color: #292323;
+}
+
+.form-group .btn-bordered:hover,.form-group .btn-bordered:active {
+    background: #292323;
+    color: #FFF
+}
+
+.btn-fill, #submit-form.btn-fill {
+    background: #FF4266;
+}
+
+#submit-form.btn-fill:hover {
+    background: #FFF;
+}
+
+.addr-details a:hover {
+    color: #292323;
+}
+
+/* Custom Scrollbar */
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: #292323;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: rgba(41, 35, 35, 0.2);
+}
+
+.vid-fallback {
+    background-image: url("../../images/youtube/particles-fallback.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sub-bg {
+	background-image: url("../../images/youtube/sub-bg.jpg");
+	background-color: #111517;
+}
+
+.sub-bg::before {
+    background: rgba(0,0,0,0.75);
+}
+
+#intro-content::before, .splash-page::before {
+    background-image: url("../../images/youtube/main-bg.jpg");
+}
+
+.tf-logo {
+    width: 324px;
+}
+
+
+/* ==================================================================
+3.0 - Responsive Styles
+================================================================== */
+
+/* 3.1 - Small Devices, Tablets (≥768px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 768px) {
+    .lt-main {
+        font-size: 38px;
+        font-size: 4.5vw;
+    }
+
+    .font2x {
+        font-size: 76px;
+        font-size: 9vw;
+    }
+
+    .font4x {
+        font-size: 152px;
+        font-size: 18vw;
+    }
+}
+
+/* 3.2 - Medium Devices, Desktops (≥992px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 992px) {
+    .lt-main {
+        font-size: 48px;
+        font-size: 4.5vw;
+    }
+
+    .font2x {
+        font-size: 96px;
+        font-size: 9vw;
+    }
+
+    .font4x {
+        font-size: 192px;
+        font-size: 18vw;
+    }
+}
+
+/* 3.3 - Large Devices, Desktops (≥1200px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 1200px) {
+    .lt-main {
+        font-size: 64px;
+        font-size: 4.5vw;
+    }
+
+    .font2x {
+        font-size: 128px;
+        font-size: 9vw;
+    }
+
+    .font4x {
+        font-size: 256px;
+        font-size: 18vw;
+    }
+
+    .addr-details {
+        text-align: center;
+    }
+
+    .btn-fill {
+        background: #292323;
+        color: #FFF
+    }
+
+    .tf-logo {
+        width: 648px;
+    }
+}
+
+/* 3.4 - Wide Screens, Desktops (≥1824px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 1824px) {
+    .lt-main {
+        font-size: 92px;
+        font-size: 4.5vw;
+    }
+
+    .font2x {
+        font-size: 184px;
+        font-size: 9vw;
+    }
+
+    .font4x {
+        font-size: 368px;
+        font-size: 18vw;
+    }
+
+    .addr-details {
+        text-align: left;
+    }
+}

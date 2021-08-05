@@ -1,0 +1,131 @@
+/*
+*
+* Template Name: Stomp - Typographic Intro
+* Concept: Template Landing Page / Coming Soon
+* Files Associated: index-local-minimal.html, index-local-minimal-countdown.html
+* Date Modified: 2017-07-23
+* Description: Custom Styles associated with the demos
+* Authors: Sven Creations(svencreations@gmail.com)
+*
+*/
+
+/* ==================================================================
+* Table of Contents:
+*
+* 1.0 - Custom Font Declarations(if any)
+* 2.0 - Custom Styles
+*       2.1 - Font Style Declarations and Other Fixes
+*       2.2 - Font Colors and Backgrounds
+* 3.0 - Responsive Styles
+* 		3.1 - Small Devices, Tablets (≥768px)
+* 		3.2 - Medium Devices, Desktops (≥992px)
+* 		3.3 - Large Devices, Desktops (≥1200px)
+*       3.4 - Wide Screens, Desktops (≥1824px)
+
+================================================================== */
+
+/* ==================================================================
+1.0 Custom Font Declarations(if any)
+================================================================== */
+
+/* ==================================================================
+2.0 Custom Styles
+================================================================== */
+
+/* 2.1 Font Style Declarations and Other Fixes
+-------------------------------------------------------------- */
+body {
+    font-family: 'Poppins', 'Tahoma', 'Geneva', sans-serif;
+}
+
+/* 2.2 Font Colors and Backgrounds
+Stamp - #111517, Content BG - #F5F5F5, Headline - #111517,
+Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
+-------------------------------------------------------------- */
+
+.sk-double-bounce .sk-child /* Preloader Circle Color */
+{
+    background: none #FFF;
+}
+
+.splash-page .btn-fill {
+    background: #EF0D33;
+}
+
+/* Main Page */
+#intro-content {
+    background: #111517;
+}
+
+#main-content {
+    background: #F5F5F5;
+}
+
+/* Buttons */
+.form-group .btn-bordered {
+    border-color: #EF0D33;
+    color: #EF0D33;
+}
+
+.form-group .btn-bordered:hover,.form-group .btn-bordered:active, .btn-fill {
+    background: #EF0D33;
+    color: #FFF;
+}
+
+.addr-details a:hover {
+    color: #EF0D33;
+}
+
+/* Custom Scrollbar */
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: #EF0D33;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: rgba(239, 13, 51,0.75);
+}
+
+.sub-bg {
+	background-image: url("../../images/local/bg-laptop.jpg");
+	background-color: #111517;
+}
+
+#intro-content::before {
+    background-image: url("../../images/local/77.jpg");
+}
+
+/* ==================================================================
+3.0 - Responsive Styles
+================================================================== */
+
+/* 3.1 - Small Devices, Tablets (≥768px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* 3.2 - Medium Devices, Desktops (≥992px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* 3.3 - Large Devices, Desktops (≥1200px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 1200px) {
+    .addr-details {
+        text-align: center;
+    }
+}
+
+/* 3.4 - Wide Screens, Desktops (≥1824px)
+-------------------------------------------------------------- */
+@media only screen and (min-width : 1824px) {
+    .addr-details {
+        text-align: left;
+    }
+}

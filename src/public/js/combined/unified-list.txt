@@ -1,0 +1,59 @@
+/***************************
+sven-essentials.min.js
+File list:
+	* preloadjs-NEXT.min.js (up to date)
+	* soundjs-NEXT.min.js (up to date)
+    * TweenMax.min.js (up to date)
+	* jquery.mb.YTPlayer.min.js (up to date)
+	* webfontloader.js (up to date / months since last update)
+    * ifvisible.min.js (up to date / no longer maintained)
+	* SplitText.min.js (up to date)
+	* TextPlugin.min.js (up to date)
+	* CustomEase.min.js (up to date)
+	* bigtext.js (up to date / no longer maintained)
+	* isMobile.js  (up to date / no longer maintained / can be replaced by a better library)
+	* objectFitPolyFill.min.js (up to date)
+	* custom-snippets.js
+	* sven-teaser.min.js
+*****************************/
+
+/***************************
+page-essentials.min.js
+File list:
+	* jquery.mCustomScrollbar.concat.min.js (up to date / years since last update)
+	* photoswipe.min.js (up to date / more than a year since last update)
+    * photoswipe-ui-default.min.js (up to date / more than a year since last update)
+	* lazysizes.min.js (up to date)
+	* jquery.countdown.min.js (up to date / years since last update)
+    * ofi.min.js (up to date / more than a year since last update)
+	* initPhotoSwipe.js
+*****************************/
+
+/***************************
+page-essentials-minimal.min.js
+File list:
+	* jquery.mCustomScrollbar.concat.min.js
+	* photoswipe.min.js
+    * photoswipe-ui-default.min.js
+	* lazysizes.min.js
+	* jquery.countdown.min.js
+    * ofi.min.js
+	* initPhotoSwipe.js
+	* isMobile.js
+	* custom-snippets.js
+*****************************/
+
+/***************************
+html5-video.min.js
+File list:
+	* video.min.js
+	* bigvideo.js
+*****************************/
+
+/***************************
+stomp-motion.min.js
+File list:
+	* sven-transitions.min.js
+	* sven-animations.min.js
+	* stomp-animations.min.js
+*****************************/
