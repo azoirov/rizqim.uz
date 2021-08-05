@@ -162,7 +162,7 @@ $(function () {
   if ($(".st-countdown").length) {
     var launchDate = $(".st-countdown").attr("data-launch-date")
       ? $(".st-countdown").attr("data-launch-date")
-      : new Date(1630436399000 + 24 * 30 * 60 * 60 * 1000);
+      : new Date(1630436399000);
     $(".st-countdown").countdown(launchDate, function (event) {
       $(this).text(event.strftime("%D Kun %H:%M:%S"));
     });
